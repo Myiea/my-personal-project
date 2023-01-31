@@ -1,6 +1,39 @@
-.navbar-left{
-    padding: 30px;
-    border: none;
+.body{
+    margin: none;
+    font-family:'Courier New', Courier, monospace;
 }
 
-.nab
+.navbar{
+    padding: 20px;
+    background-image: url(bg.png);
+    width: 600px;
+}
+
+.navbar-left img{
+    display: flex;
+    flex-direction: left;
+    width: 80px;
+}
+
+.navbar-left div{
+    text-transform: uppercase;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.navbar-left div:hover{
+    text-decoration: none;
+    color: beige;
+}
+
+.navbar-left{
+    display: flex;
+    align-self: center;
+}
+
+.navbar-left > *{
+    padding: 20px;
+}
