@@ -6,9 +6,20 @@
 .navbar{
     padding: 20px;
     font-size: 16px;
-    background-image: url(bg.jpg);
+    display: flex;
     align-items: center;
+    background-image: url(bg.jpg);
+    width: auto;
+    height: max-content;
+    margin: auto;
     justify-content: space-between;
+}
+
+.navbar-left,
+.navbar-right{
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-left img{
@@ -18,15 +29,39 @@
 .navbar-left-items{
     text-transform: uppercase;
     font-weight: 600;
-}
-
-.navbar-left,
-.navbar-right{
     display: flex;
     align-items: center;
+    padding: 20px;
+    text-decoration: none;
 }
 
-.navbar-left > *,
-.navbar-right > *{
-    margin: 10px;
+
+.navbar-left div:hover{
+    text-decoration: none;
+    color: beige;
+}
+
+
+.navbar-left-items > *,
+.navbar-right-login > *{
+    padding: 20px;
+}
+
+.navbar-right-login{
+    display: flex;
+    border: none;
+    align-items: right;
+    font-size: 12px;
+    
+}
+
+.navbar-right-login a{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: inherit;
+    font-size: 13px;
+}
+
+.navbar-right-login a:hover{
+    color: beige;
 }
