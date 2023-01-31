@@ -1,0 +1,24 @@
+.title-container{
+    background-image: url(bg.png);
+    padding: 30px;
+    width: auto;
+    height: 300px;
+}
+
+.title-container-logo{
+    display: flex;
+    flex-direction: left;
+    width: 150px;
+    height: 150px;
+}
+
+.title-container-intro{
+    margin-left: 100px;
+}
+
+.title-container-item{
+    background-color: none;
+    border: none;
+    padding-top: 50px;
+    padding-left: 30px;
+}
