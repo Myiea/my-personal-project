@@ -3,23 +3,31 @@
     font-family:'Courier New', Courier, monospace;
 }
 
-.navbar-left{
+.navbar{
     padding: 20px;
-    background-image: url(bg.png);
-    width: max-content;
+    font-size: 16px;
     display: flex;
+    align-items: center;
+    background-image: url(bg.jpg);
+    width: max-content;
+    height: min-content;
+}
 
+.navbar-left,
+.navbar-right{
+    padding: 20px;
+    display: flex;
+    align-items: center;
 }
 
 .navbar-left img{
-    display: flex;
-    flex-direction: left;
-    width: 80px;
+    margin: 20%;
+    width: 100px;
 }
 
 .navbar-left-items{
     text-transform: uppercase;
-    font-weight: 500;
+    font-weight: 600;
     display: flex;
     align-items: center;
     padding: 20px;
@@ -34,4 +42,21 @@
 
 .navbar-left-items > *{
     padding: 20px;
+}
+
+.navbar-right-login{
+    display: flex;
+    border: none;
+    align-items: right;
+}
+
+.navbar-right-login div{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: inherit;
+    font-size: 13px;
+}
+
+.navbar-right-login div:hover{
+    color: beige;
 }
