@@ -1,1 +1,1 @@
-new link:https:https://myiea.github.io/my-personal-project/
+new link:https://myiea.github.io/my-personal-project/
