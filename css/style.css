@@ -8,7 +8,7 @@
     font-size: 16px;
     display: flex;
     align-items: center;
-    background-image: url(bg.jpg);
+    background-image: url(/my-personal-project/img/bg.jpg);
     width: auto;
     height: max-content;
     margin: auto;
@@ -64,4 +64,8 @@
 
 .navbar-right-login a:hover{
     color: beige;
+}
+
+.table{
+    font-family: 'Quicksand', sans-serif;
 }
