@@ -4,15 +4,12 @@
 }
 
 .navbar{
-    padding: 20px;
+    padding: 0px;
     font-size: 16px;
     display: flex;
     align-items: center;
     background-image: url(/my-personal-project/img/bg.jpg);
-    width: auto;
-    height: max-content;
-    margin: auto;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .navbar-left,
