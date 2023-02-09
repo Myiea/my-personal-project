@@ -79,11 +79,7 @@ body {
     position: relative;
 }
 
-.main-head-content{
-    display: flex;
-    justify-content: center;
-    font: bold ;
-}
+
 
 .main-profile{
     display: flex;
