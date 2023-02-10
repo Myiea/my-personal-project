@@ -1,0 +1,94 @@
+body{
+    display: block;
+    margin: -8px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+
+.navbar{
+    padding: 0px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    background-image: url(/my-personal-project/img/bg.jpg);
+    justify-content: space-between;    
+}
+
+.navbar-left,
+.navbar-right{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-left img{
+    width: 100px;
+}
+
+.navbar-left-items{
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+.navbar-left div:hover{
+    text-decoration: none;
+    color: beige;
+}
+
+
+.navbar-left-items > *,
+.navbar-right-login > *{
+    padding: 20px;
+}
+
+.navbar-right-login{
+    display: flex;
+    border: none;
+    align-items: right;
+    font-size: 12px;
+    
+}
+
+.navbar-right-login a{
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: inherit;
+    font-size: 13px;
+}
+
+.navbar-right-login a:hover{
+    color: beige;
+}
+
+.table{
+    font-family: 'Quicksand', sans-serif;
+}
+
+.main-profile{
+    display: flex;
+}
+
+.profile-body{
+    display: block;
+    margin-left: 100px;
+    margin-top: 100px;
+    font-size: 20px;
+}
+
+.profile-body a{
+    margin: 50px;
+    border: 1px solid #ADAD85;
+    font-weight: 500;
+    border-radius: 50px;
+    padding: 2px 10px 2px 10px;
+    background-color: #ADAD85;
+    color: white;
+    text-transform: uppercase;
+}
